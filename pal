@@ -1,0 +1,13 @@
+public class palindrome {
+public static void main(String args[])
+{
+	int n=424,q,r,a;
+	q=n/10;
+	r=n%10;
+	a=(q*10)+r;
+	if(a==n)
+		System.out.println("The number is palindrome");
+	else
+		System.out.println("the number is not a palindrome");
+}
+}
